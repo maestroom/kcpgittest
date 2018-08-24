@@ -28,6 +28,7 @@ class SiteController extends Controller
         public function actionIndex()
         {
             echo "rtyrty";
+            echo "dfgdgr";
             Yii::app()->session['menuid'] = 1;
             
             $get_meta_tags = MetaTag::model()->find(array('condition'=>'status=1 AND page="Home"'));
